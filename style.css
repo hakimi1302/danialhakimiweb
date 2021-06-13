@@ -1,0 +1,134 @@
+html{
+    background-color: #6b6b6b;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+body{
+    margin: 0;
+    transition: 1s;
+    
+}
+
+.header{
+    font-family: "ink free";
+    background-color: #000000;
+    padding: 24px 26px;
+    margin: 0;
+    transition: 2s;
+    letter-spacing: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #6b6b6b;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  transition: .8s;
+}
+
+.topnav a:hover {
+  background-color: #d40000;
+  color: white;
+  transition: 0.8s;  
+}
+
+.head{
+    padding: 0;
+    margin : 0;
+    text-align: left;
+    font-family: "verdana";
+    font-size: 30px;
+    letter-spacing: 10px;
+
+}
+
+h3{
+    font-family: "verdana";
+    letter-spacing: 5px;
+    opacity: 50%;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+p{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+legend{
+    font-size: 20px;
+    font-family: "helvetica";
+    letter-spacing: 2px;
+}
+
+.footer{
+    font-size: 14px;
+    font-family: "helvetica";
+    letter-spacing: 3px;
+    text-align: left;
+    background-color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3.5px;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+.cal1{
+    color: black;
+    font-size: 40px;
+    padding: 30px;
+    background-color: #e64747;
+    text-align: center;
+    font-family: "microsoft yi baiti";
+    border: solid;
+    border-color: #850000;
+}
+
+ul li{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+td{
+    padding: 30px;
+	border-color: #850000;
+}
+
+.gif{
+    align-content: center;
+    border: solid;
+    border-radius: 60px;
+}
+
+.form{
+    line-height: 5px;
+    font-family: cursive;
+}
